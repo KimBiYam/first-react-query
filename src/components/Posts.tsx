@@ -43,7 +43,7 @@ const Posts = ({ setPostId }: Props) => {
           </div>
         );
     }
-  }, [status]);
+  }, [status, data, error]);
 
   return (
     <div>

@@ -28,7 +28,7 @@ const Post = ({ postId, setPostId }: Props) => {
           </>
         );
     }
-  }, [status, isFetching]);
+  }, [status, data, error, isFetching]);
 
   return (
     <div>
